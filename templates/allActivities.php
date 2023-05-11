@@ -26,7 +26,7 @@ else{
       else{
         echo 
           "<li class='activity'>
-          <h5>".$row['name']."</h4><span class='errorMsg'>$msg</span>
+          <h5>".$row['name']."</h5><span class='errorMsg'>$msg</span>
           <a href='updateActivity.php?activity_id=".$row['activity_id']."' id='updateIconSmall'></a>
           <a href='../scripts/php/removeActivityScript.php?activity_id=".$row['activity_id']."' id='deleteIconSmall'></a>
           </li>";
